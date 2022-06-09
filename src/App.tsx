@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import "./styles/app.css";
-import Logo from "./assets/icons/bbc.logo.svg";
 import Button from "./components/Button";
 import AmericaFlag from "./assets/flag/united-states-of-america.png";
 import HindiFlag from "./assets/flag/india.png";
@@ -203,7 +202,14 @@ const App = () => {
       <div className="all">
         <section className="section-left">
           <div className="image-area">
-            <img className="placeholder-logo" src={Logo} alt="logo" />
+            AUTHOR :{" "}
+            <a
+              href="https://www.linkedin.com/in/wahyu-fatur-rizky/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              WAHYU FATUR RIZKI
+            </a>
           </div>
         </section>
         <section className="language">
